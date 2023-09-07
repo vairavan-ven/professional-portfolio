@@ -7,14 +7,14 @@ body {
 
 /* Style the header and navigation bar */
 header {
-    background-color: #333; /* Change this to your desired background color */
+    background-color: #333; 
     color: #fff; /* Text color for the header */
     padding: 20px 0;
     text-align: center;
 }
 
 header h1 {
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px; 
     margin: 0;
 }
 
@@ -24,14 +24,14 @@ header img {
 }
 
 nav {
-    margin-top: 10px; /* Adjust the margin as needed */
+    margin-top: 10px; 
 }
 
 nav a {
     color: #fff; /* Text color for the navigation links */
     text-decoration: none;
-    margin: 0 20px; /* Adjust the margin as needed */
-    font-size: 18px; /* Adjust the font size as needed */
+    margin: 0 20px; 
+    font-size: 18px; 
 }
 
 /* Style the container sections */
@@ -44,7 +44,7 @@ nav a {
 
 /* Style the headings within the container sections */
 .container h2 {
-    font-size: 24px; /* Adjust the font size as needed */
+    font-size: 24px; 
 }
 
 /* Style the paragraphs within the container sections */
@@ -77,8 +77,8 @@ nav a[href^="#"] {
 }
 
 nav a[href^="#"]:hover {
-    background-color: #444; /* Change the background color on hover */
-    color: #fff; /* Change the text color on hover */
+    background-color: #444; /
+    color: #fff; 
 }
 
 /* Responsive layout for smaller screens */
