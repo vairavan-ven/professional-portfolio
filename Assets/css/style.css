@@ -1,0 +1,92 @@
+/* Reset some default styles for better consistency */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Choose an appropriate font */
+}
+
+/* Style the header and navigation bar */
+header {
+    background-color: #333; /* Change this to your desired background color */
+    color: #fff; /* Text color for the header */
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 24px; /* Adjust the font size as needed */
+    margin: 0;
+}
+
+header img {
+    max-width: 100px; /* Adjust the max-width for the avatar image */
+    border-radius: 50%; /* Make the avatar image circular */
+}
+
+nav {
+    margin-top: 10px; /* Adjust the margin as needed */
+}
+
+nav a {
+    color: #fff; /* Text color for the navigation links */
+    text-decoration: none;
+    margin: 0 20px; /* Adjust the margin as needed */
+    font-size: 18px; /* Adjust the font size as needed */
+}
+
+/* Style the container sections */
+.container {
+    margin: 40px;
+    padding: 20px;
+    border: 1px solid #ddd; /* Add a border for separation */
+    background-color: #f9f9f9; /* Background color for sections */
+}
+
+/* Style the headings within the container sections */
+.container h2 {
+    font-size: 24px; /* Adjust the font size as needed */
+}
+
+/* Style the paragraphs within the container sections */
+.container p {
+    font-size: 16px; /* Adjust the font size as needed */
+}
+
+/* Style the project items within the "Projects" section */
+.project-item {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.project-item img {
+    max-width: 100%; /* Ensure images are responsive */
+}
+
+.project-item.larger img {
+    width: 80%; /* Increase the size of the larger image */
+}
+
+/* Add a hover effect to the navigation links */
+nav a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Add smooth scrolling to the anchor links */
+nav a[href^="#"] {
+    transition: all 0.3s ease-in-out;
+}
+
+nav a[href^="#"]:hover {
+    background-color: #444; /* Change the background color on hover */
+    color: #fff; /* Change the text color on hover */
+}
+
+/* Responsive layout for smaller screens */
+@media screen and (max-width: 768px) {
+    header img {
+        max-width: 80px; /* Adjust the avatar image size for smaller screens */
+    }
+    nav a {
+        font-size: 16px; /* Adjust the font size of navigation links for smaller screens */
+    }
+}
